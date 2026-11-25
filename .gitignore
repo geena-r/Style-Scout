@@ -1,0 +1,26 @@
+# Python virtual environments & cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Large data / model / index files (keep full datasets out of Git)
+*.csv
+*.parquet
+*.faiss
+*.pt
+*.pth
+*.zip
+data/raw/
+data/images/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
